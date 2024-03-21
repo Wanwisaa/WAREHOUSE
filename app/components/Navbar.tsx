@@ -83,7 +83,7 @@ const Navbar = () => {
         <div className="p-3 pb-2 flex justify-between items-center">
           <Link href={'/dashboard'}>
             <h1 className={` text-black ${ expanded ? "text-2xl" : "hidden"}`}>
-              My warehouse
+              Inventory
               </h1>
           </Link>
 

@@ -82,7 +82,7 @@ export default function Login() {
         </div>
         <div className=" relative rounded-[20px] h-[30%] bg-[#191313]">
           <h1 className=" absolute text-5xl font-bold bottom-10 right-10 text-white">
-            My warehouse
+            Inventory
           </h1>
         </div>
       </div>
@@ -91,7 +91,7 @@ export default function Login() {
       <div className="h-[100%] rounded-[20px] bg-white w-full relative">
         <form onSubmit={handleSubmit}>
           <div className="text-center">
-            <h2 className="text-7xl font-extrabold  mt-20">My warehouse</h2>
+            <h2 className="text-7xl font-extrabold  mt-20">Inventory</h2>
           </div>
           <div className="text-center">
             <h2 className="text-4xl font-extrabold  mt-10">เข้าสู่ระบบ</h2>
@@ -115,22 +115,22 @@ export default function Login() {
             </div>
 
             <div className="w-[60%] mx-auto relative my-12">
-            <input
-              type="password"
-              name="password"
-              id="password"
-              autoComplete="current-password"
-              required
-              value={credentials.password}
-              onChange={handleChange}
-              className="block w-[100%]  py-3 border rounded-[12px] bg-[#191313] text-white"
-              placeholder="รหัสผ่าน"
-            />
-            <h1 className=" absolute -top-8">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                autoComplete="current-password"
+                required
+                value={credentials.password}
+                onChange={handleChange}
+                className="block w-[100%]  py-3 border rounded-[12px] bg-[#191313] text-white"
+                placeholder="รหัสผ่าน"
+              />
+              <h1 className=" absolute -top-8">
                 รหัสผ่าน
               </h1>
             </div>
-            
+
             <button
               type="submit"
               className="block w-[60%] py-5 border rounded-[12px] bg-[#FFF500] mx-auto text-2xl"
